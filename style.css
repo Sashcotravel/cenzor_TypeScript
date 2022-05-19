@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 900px;
+    height: 360px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.box1{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 20px 0 20px;
+}
+
+.badWords{
+    color: red;
+}
+
+.text{
+    height: 30px;
+    width: 75%;
+    border: 0.5px solid black;
+    margin: 0 0 20px;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.add, .reset{
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.reset{
+    background-color: red;
+    margin: 0 0 0 10px;
+}
+
+.area{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.cenzor{
+    margin: 10px 0px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: orange;
+    font-size: 20px;
+}
